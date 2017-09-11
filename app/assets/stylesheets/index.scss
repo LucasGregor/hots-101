@@ -1,0 +1,607 @@
+body {
+  background-image: url("http://i.imgur.com/OcFygJu.jpg");
+  // height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homepage {
+
+  width: 500px;
+  margin: 25px auto;
+  background-color:transparent !important;
+  text-align: justify;
+  -moz-text-align-last: center;
+  text-align-last: center;
+}
+
+.homepage h1 {
+  color: #FBFBF2;
+  font-family: Copperplate;
+  font-weight: 200;
+  margin: 0;
+}
+
+p.lead {
+  color: #50E4FF;
+}
+
+#hotslogo img {
+  display: block;
+  margin: 150px auto 0px auto;
+  // width: 70%;
+}
+
+body, html {
+     height: 100%;
+ }
+
+ .parallax-inner {
+   padding-top: 25px;
+   padding-bottom: 25px;
+ }
+
+ .parallax {
+   background: url("http://heroes.gameward.tv/wp-content/uploads/2017/01/background-gameward-heroes-of-the-storm.jpg") repeat fixed 100%;
+   width: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ div.parallax-inner h3 {
+   text-align: center;
+   font-size: 500%;
+   color: #50E4FF;
+   letter-spacing: 1%;
+   padding: 2%;
+   font-weight: 200;
+}
+
+.textcontainer {
+  border-style: solid;
+  border-width: 1px;
+  width: 600px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 15px;
+  border-color: #50E4FF;
+  font-family: Avenir Next;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+
+// MOBA section
+// MOBA section
+// MOBA section
+
+div.mobasection button {
+  text-align:center;
+}
+
+div.mobasection {
+  background-image: url("http://i.imgur.com/OcFygJu.jpg");
+  height: 1300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #50E4FF;
+  padding: 50px;
+}
+
+div.mobasection img{
+  width: 600px;
+  margin: 25px auto;
+  display: block;
+}
+
+.parallax-inner2 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.parallax2 {
+  background: url("http://www.adriacraft.net/images/stories/news/2014/Feb/heroes/hots_background_02.jpg") repeat fixed 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.parallax-inner2 h3 {
+ text-align: center;
+ font-size: 500%;
+ color: #50E4FF;
+ letter-spacing: 1%;
+ padding: 2%;
+ }
+
+// Roles section
+// Roles section
+// Roles section
+
+div.rolessection {
+   background-image: url("http://i.imgur.com/OcFygJu.jpg");
+   height: 250%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #50E4FF;
+   padding: 50px;
+   font-weight: lighter;
+ }
+
+#rolestext p {
+ padding: 100px 25%;
+ }
+
+.parallax-inner2 {
+   padding-top: 25px;
+   padding-bottom: 25px;
+ }
+
+.parallax2 {
+   background: url("http://www.adriacraft.net/images/stories/news/2014/Feb/heroes/hots_background_02.jpg") repeat fixed 100%;
+   width: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+div.parallax-inner2 h3 {
+  text-align: center;
+  font-size: 500%;
+  color: #50E4FF;
+  letter-spacing: 1%;
+  padding: 2%;
+  font-weight: 200;
+}
+
+// ASSASSINS BOX
+// ASSASSINS BOX
+
+div.rolessection .assassins .textcontainer h3 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 300%;
+  color: white;
+  letter-spacing: 1%;
+  padding: 2%;
+}
+
+.assassins{
+  margin: 10px auto;
+}
+
+.assassins #assassinicon{
+  float: left;
+}
+
+.assassins #plusicon {
+  width: 90px;
+  position: relative;
+  right: 135px;
+  bottom: 55px;
+  display: inline;
+}
+
+.assassins #minusicon {
+  width: 75px;
+  display: inline;
+  position: relative;
+  right: 33px;
+  bottom: 35px;
+}
+
+.assassins .plus h5 {
+  text-align: right;
+  font-weight: lighter;
+  font-size: 150%;
+  color: white;
+  letter-spacing: 1%;
+  padding: 2%;
+  position: relative;
+  top: 25px;
+  right: 25px;
+
+}
+
+.assassins .minus h5 {
+  text-align: right;
+  font-weight: lighter;
+  font-size: 150%;
+  color: white;
+  letter-spacing: 1%;
+  padding: 2%;
+  position: relative;
+  bottom: 35px;
+  right: 50px;
+  float: right;
+}
+
+// WARRIOR BOX
+// WARRIOR BOX
+// WARRIOR BOX
+
+div.rolessection .warriors .textcontainer h3 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 300%;
+  color: white;
+  letter-spacing: 1%;
+  padding: 2%;
+}
+
+.warriors{
+  margin: 10px auto;
+}
+
+.warriors #warriorsicon{
+  float: left;
+}
+
+.warriors #plusicon {
+  width: 90px;
+  position: relative;
+  right: 135px;
+  bottom: 55px;
+  display: inline;
+}
+
+.warriors #minusicon {
+  width: 75px;
+  display: inline;
+  position: relative;
+  right: 22px;
+  bottom: 35px;
+}
+
+.warriors .plus h5 {
+  text-align: right;
+  font-weight: lighter;
+  font-size: 150%;
+  color: white;
+  letter-spacing: 1%;
+  padding: 2%;
+  position: relative;
+  top: 25px;
+  right: 45px;
+
+}
+
+.warriors .minus h5 {
+  text-align: right;
+  font-weight: lighter;
+  font-size: 150%;
+  color: white;
+  letter-spacing: 1%;
+  padding: 2%;
+  position: relative;
+  bottom: 35px;
+  right: 30px;
+  float: right;
+}
+
+// SUPPORT BOX
+// SUPPORT BOX
+// SUPPORT BOX
+
+div.rolessection .support .textcontainer h3 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 300%;
+  color: white;
+  letter-spacing: 1%;
+  padding: 2%;
+}
+
+.support{
+  margin: 10px auto;
+}
+
+.support #supporticon{
+  float: left;
+}
+
+.support #plusicon {
+  width: 90px;
+  position: relative;
+  right: 135px;
+  bottom: 55px;
+  display: inline;
+}
+
+.support #minusicon {
+  width: 75px;
+  display: inline;
+  position: relative;
+  right: 22px;
+  bottom: 35px;
+}
+
+.support .plus h5 {
+  text-align: right;
+  font-weight: lighter;
+  font-size: 150%;
+  color: white;
+  letter-spacing: 1%;
+  padding: 2%;
+  position: relative;
+  top: 25px;
+  right: 5px;
+
+}
+
+.support .minus h5 {
+  text-align: right;
+  font-weight: lighter;
+  font-size: 150%;
+  color: white;
+  letter-spacing: 1%;
+  padding: 2%;
+  position: relative;
+  bottom: 35px;
+  right: 45px;
+  float: right;
+}
+
+// SPECIALIST BOX
+// SPECIALIST BOX
+// SPECIALIST BOX
+
+
+div.rolessection .specialist .textcontainer h3 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 300%;
+  color: white;
+  letter-spacing: 1%;
+  padding: 2%;
+}
+
+.specialist{
+  margin: 10px auto;
+}
+
+.specialist #specialisticon{
+  float: left;
+}
+
+.specialist #plusicon {
+  width: 90px;
+  position: relative;
+  right: 135px;
+  bottom: 55px;
+  display: inline;
+}
+
+.specialist #minusicon {
+  width: 75px;
+  display: inline;
+  position: relative;
+  right: 25px;
+  bottom: 35px;
+}
+
+.specialist .plus h5 {
+  text-align: right;
+  font-weight: lighter;
+  font-size: 150%;
+  color: white;
+  letter-spacing: 1%;
+  padding: 2%;
+  position: relative;
+  top: 25px;
+  right: 25px;
+
+}
+
+.specialist .minus h5 {
+  text-align: right;
+  font-weight: lighter;
+  font-size: 150%;
+  color: white;
+  letter-spacing: 1%;
+  padding: 2%;
+  position: relative;
+  bottom: 35px;
+  right: 55px;
+  float: right;
+}
+
+
+// TEAM COMPOSITION SECTION
+// TEAM COMPOSITION SECTION
+// TEAM COMPOSITION SECTION
+
+.comptextcontainer {
+  border-style: solid;
+  border-width: 1px;
+  width: 600px;
+  margin: 15px auto;
+  padding: 10px;
+  border-radius: 15px;
+  border-color: #50E4FF;
+  font-family: Avenir Next;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+}
+
+div.compsection {
+   background-image: url("http://i.imgur.com/OcFygJu.jpg");
+   height: 250%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #50E4FF;
+   padding: 50px;
+   font-weight: lighter;
+ }
+
+#comptext p {
+ padding: 100px 25%;
+ }
+
+.parallax-inner3 {
+   padding-top: 25px;
+   padding-bottom: 25px;
+ }
+
+.parallax3 {
+   background: url("https://bnetcmsus-a.akamaihd.net/cms/content_folder_media/6XE80TX43WDW1436217116750.jpg") repeat fixed 100%;
+   width: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+div.parallax-inner3 h3 {
+  text-align: center;
+  font-size: 500%;
+  color: #50E4FF;
+  letter-spacing: 1%;
+  padding: 2%;
+  font-weight: 200;
+}
+
+div.compsection .comptextcontainer h3 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 300%;
+  color: white;
+  letter-spacing: 1%;
+  padding: 2%;
+}
+
+// TANKROW
+// TANKROW
+
+#tanktext{
+  float: left;
+  font-size: 10px;
+  width: 30%;
+  padding: 5%;
+  position: relative;
+  left: 10px;
+}
+
+#compwarrioricon {
+  float: left;
+  width: 30%;
+}
+
+#tankimg {
+  position: relative;
+  right: 50px;
+  bottom: 25px;
+  float: left;
+  width: 25%;
+}
+
+// SUPPORT ROW
+// SUPPORT ROW
+
+#supporttext{
+  float: left;
+  font-size: 10px;
+  width: 37%;
+  padding: 4%;
+  position: relative;
+  right: 10px;
+}
+
+#compsupporticon {
+  float: left;
+  width: 30%;
+}
+
+#supportimg {
+  position: relative;
+  right: 100px;
+  bottom: 25px;
+  float: left;
+  width: 25%;
+}
+
+// MELEE DPS
+// MELEE DPS
+
+#mdpstext{
+  float: left;
+  font-size: 10px;
+  width: 37%;
+  padding: 4%;
+  position: relative;
+  right: 20px;
+}
+
+#compmdpsicon {
+  float: left;
+  width: 30%;
+}
+
+#mdpsimg {
+  position: relative;
+  right: 115px;
+  bottom: 25px;
+  float: left;
+  width: 25%;
+}
+
+// RANGED DPS
+// RANGED DPS
+
+#rdpstext{
+  float: left;
+  font-size: 10px;
+  width: 37%;
+  padding: 4%;
+  position: relative;
+  right: 20px;
+}
+
+#comprdpsicon {
+  float: left;
+  width: 30%;
+}
+
+#rdpsimg {
+  position: relative;
+  right: 115px;
+  bottom: 25px;
+  float: left;
+  width: 25%;
+}
+
+// SPECIALIST
+// SPECIALIST
+
+#spectext{
+  float: left;
+  font-size: 10px;
+  width: 38%;
+  padding: 1%;
+  position: relative;
+  left: -10px;
+  top: 30px;
+}
+
+#compspecicon {
+  float: left;
+  width: 30%;
+}
+
+#specimg {
+  position: relative;
+  right: 115px;
+  bottom: 25px;
+  float: left;
+  width: 25%;
+}
