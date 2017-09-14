@@ -1,24 +1,34 @@
 
 .navbar.transparent.navbar-inverse {
-   background: rgba(0,0,0,0.4);
+   background: rgba(0,0,0,0.2);
+   width: 500px;
+  //  min-width:
+   margin: auto;
+   border-color: #50E4FF;
+   border-radius: 15px;
 }
 
-body {
-  background-image: url("http://i.imgur.com/OcFygJu.jpg");
-  // height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+ul.navbar-nav {
+    width: 100%;
+    text-align: center;
+    > li {
+      float: none;
+      display: inline-block;
+    }
+  }
 
 .homepage {
-
-  width: 500px;
-  margin: 25px auto;
-  background-color:transparent !important;
+  // width: 500px;
+  // margin: 25px auto;
+  // background-color:transparent !important;
   text-align: justify;
   -moz-text-align-last: center;
   text-align-last: center;
+  background-image: url("http://i.imgur.com/OcFygJu.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .homepage h1 {
@@ -32,15 +42,18 @@ p.lead {
   color: #50E4FF;
 }
 
-#hotslogo img {
+#hotslogo  {
   display: block;
-  margin: 150px auto 0px auto;
+  display: block;
+  margin: auto;
+  padding-top: 45px;
+  // margin: 150px auto 0px auto;
   // width: 70%;
 }
 
-body, html {
-     height: 100%;
- }
+// body, html {
+//      height: 100%;
+//  }
 
  .parallax-inner {
    padding-top: 25px;
@@ -88,46 +101,121 @@ div.mobasection button {
   text-align:center;
 }
 
+.mobasection .container{
+  width: 1150px;
+}
+
 div.mobasection {
   background-image: url("http://i.imgur.com/OcFygJu.jpg");
-  height: 1300px;
+  height: 900px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: #50E4FF;
   padding: 50px;
+  font-weight: lighter;
 }
 
 div.mobasection img{
+  margin: auto;
+}
+
+.mobasection .textcontainer {
+  border-style: solid;
+  border-width: 1px;
   width: 600px;
-  margin: 25px auto;
-  display: block;
+  margin: 25px auto 25px auto;
+  padding: 10px;
+  border-radius: 15px;
+  border-color: #50E4FF;
+  font-family: Avenir Next;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.35);
 }
 
-.parallax-inner2 {
-  padding-top: 25px;
-  padding-bottom: 25px;
+.carousel-caption .textcontainer{
+  background-color: rgba(0, 0, 0, 0.65);
 }
 
-.parallax2 {
-  background: url("http://www.adriacraft.net/images/stories/news/2014/Feb/heroes/hots_background_02.jpg") repeat fixed 100%;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.carousel-caption #top  .textcontainer{
+  position: relative;
+  top: 60px;
+  width: 25%;
 }
 
-div.parallax-inner2 h3 {
- text-align: center;
- font-size: 500%;
- color: #50E4FF;
- letter-spacing: 1%;
- padding: 2%;
- }
+.carousel-caption #left .textcontainer{
+  position: relative;
+  right: 250px;
+  top: 175px;
+  width: 25%;
+}
+
+.carousel-caption #middle .textcontainer{
+  position: relative;
+  top: 100px;
+  width: 25%;
+}
+
+.carousel-caption #right .textcontainer{
+  position: relative;
+  top: -55px;
+  left: 350px;
+  width: 25%;
+}
+
+.carousel-caption #slide2 .textcontainer{
+  position: relative;
+  top: 25px;
+  left: 250px;
+  width: 45%;
+}
+
+.carousel-caption #slide3 .textcontainer{
+  position: relative;
+  top: 25px;
+
+  width: 45%;
+
+}
+
+
+
+
+
+// div.mobasection img{
+//   width: 600px;
+//   margin: 25px auto;
+//   display: block;
+// }
+
+// .parallax-inner2 {
+//   padding-top: 25px;
+//   padding-bottom: 25px;
+// }
+//
+// .parallax2 {
+//   background: url("https://bnetcmsus-a.akamaihd.net/cms/content_folder_media/1CZUQU4DVT711436217116016.jpg") repeat fixed 100%;
+//   width: 100%;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
+//
+// div.parallax-inner2 h3 {
+//  text-align: center;
+//  font-size: 500%;
+//  color: #50E4FF;
+//  letter-spacing: 1%;
+//  padding: 2%;
+//  }
 
 // Roles section
 // Roles section
 // Roles section
+
+
 
 div.rolessection {
    background-image: url("http://i.imgur.com/OcFygJu.jpg");
@@ -150,7 +238,7 @@ div.rolessection {
  }
 
 .parallax2 {
-   background: url("http://www.adriacraft.net/images/stories/news/2014/Feb/heroes/hots_background_02.jpg") repeat fixed 100%;
+   background: url("https://bnetcmsus-a.akamaihd.net/cms/content_folder_media/1CZUQU4DVT711436217116016.jpg") repeat fixed 100%;
    width: 100%;
    background-position: center;
    background-repeat: no-repeat;
@@ -623,7 +711,7 @@ div.compsection .comptextcontainer h3 {
  }
 
 .parallax4 {
-   background: url("https://www.primagames.com/media/images/news/HotS-hollow_edit.jpg") repeat fixed 100%;
+   background: url("http://i.imgur.com/aGsQ5tn.jpg") repeat fixed 100%;
    width: 100%;
    background-position: center;
    background-repeat: no-repeat;
